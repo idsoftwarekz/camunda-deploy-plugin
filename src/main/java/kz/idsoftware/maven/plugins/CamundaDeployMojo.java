@@ -1,4 +1,4 @@
-package kz.id.maven.plugins;
+package kz.idsoftware.maven.plugins;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;

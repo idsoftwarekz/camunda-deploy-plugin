@@ -1,4 +1,4 @@
-package kz.id.maven.plugins;
+package kz.idsoftware.maven.plugins;
 
 import static org.junit.Assert.assertTrue;
 
