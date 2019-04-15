@@ -9,6 +9,8 @@
   <packaging>maven-plugin</packaging>
 
   <name>camunda-deploy-plugin</name>
+  <description>Maven deploy plugin for Camunda</description>
+  <url>https://github.com/idsoftwarekz/camunda-deploy-plugin</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -47,24 +49,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
-  </distributionManagement>
-
-  <scm>
-   <connection>scm:git:git@github.com:idsoftwarekz/camunda-deploy-plugin.git</connection>
-   <url>https://github.com/idsoftwarekz/camunda-deploy-plugin</url>
-   <developerConnection>scm:git:https://github.com/idsoftwarekz/camunda-deploy-plugin.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
 
   <build>
     <plugins>
@@ -121,5 +105,41 @@
       </plugin>
     </plugins>
   </build>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
+
+  <scm>
+   <connection>scm:git:git@github.com:idsoftwarekz/camunda-deploy-plugin.git</connection>
+   <url>https://github.com/idsoftwarekz/camunda-deploy-plugin</url>
+   <developerConnection>scm:git:https://github.com/idsoftwarekz/camunda-deploy-plugin.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>maratkalibek</id>
+      <name>Marat Kalibekov</name>
+      <email>marat [at] idsoftware.kz</email>
+      <url>https://github.com/maratkalibek</url>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
 
 </project>
