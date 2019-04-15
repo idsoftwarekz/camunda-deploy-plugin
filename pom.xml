@@ -60,6 +60,12 @@
     </repository>
   </distributionManagement>
 
+  <scm>
+   <connection>scm:git:git@github.com:idsoftwarekz/camunda-deploy-plugin.git</connection>
+   <url>https://github.com/idsoftwarekz/camunda-deploy-plugin</url>
+   <developerConnection>scm:git:https://github.com/idsoftwarekz/camunda-deploy-plugin.git</developerConnection>
+  </scm>
+
   <build>
     <plugins>
       <plugin>
